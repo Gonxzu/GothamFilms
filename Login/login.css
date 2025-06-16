@@ -1,0 +1,33 @@
+.cima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px; /* espaçamento entre os itens */
+}
+
+
+.imagem1 {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.imagem2 img {
+    width: 50%;
+    display: block;
+    margin: 20px auto; 
+}
+.botao {
+        background-color: #86812e;     /* cor pastel tipo amarelo claro */
+        color: white;                  /* texto branco */
+        font-weight: bold;            /* negrito */
+        font-family: 'Arial', sans-serif;
+        border: none;                 /* sem borda */
+        border-radius: 15px;          /* cantos arredondados */
+        padding: 10px 30px;           /* tamanho do botão */
+        font-size: 18px;              /* tamanho da fonte */
+        cursor: pointer;              /* cursor de mãozinha */
+        transition: background 0.3s;
+        display: block;
+        margin: 20px auto; 
+}
