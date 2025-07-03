@@ -8,14 +8,14 @@
 
 .imagem1 {
     width: 60px;
-    height: 60px;
+    height: 60px; /* altura */
     margin-right: 20px;
 }
 
 .imagem2 img {
-    width: 50%;
-    display: block;
-    margin: 20px auto; 
+    width: 50%;  /* largura */
+    display: block; 
+    margin: 20px auto;  /* margem */
 }
 .botao {
         background-color: #86812e;     /* cor pastel tipo amarelo claro */
@@ -26,8 +26,9 @@
         border-radius: 15px;          /* cantos arredondados */
         padding: 10px 30px;           /* tamanho do botão */
         font-size: 18px;              /* tamanho da fonte */
-        cursor: pointer;              /* cursor de mãozinha */
+        cursor: pointer;            /* cursor de mãozinha */
         transition: background 0.3s;
         display: block;
-        margin: 20px auto; 
+        margin: 20px auto;
+        width: 17vh;
 }
